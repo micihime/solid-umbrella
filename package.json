@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@mantine/core": "7.10.2",
+    "@mantine/form": "^7.10.2",
     "@mantine/hooks": "7.10.2",
     "@remix-run/node": "^2.9.2",
     "@remix-run/react": "^2.9.2",
