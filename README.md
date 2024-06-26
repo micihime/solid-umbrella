@@ -8,12 +8,9 @@ I am using Remix with Mantine. I want to have a form where I upload some data an
 2. check the console log in terminal
       
 When using simple form, I can see file name, size and content logged to the console.
-When using Mantine form with file input, I am not able to see the file content or anything.
+When using Mantine form components with file input, I am not able to see the file content or anything.
       
-Does not work
-I am not able to read the file properties or the file content
-"/mantinesimple" Mantine components in simple form
-"/mantinehandler" Mantine components using Remix parseMultipartFormData
+I am not able to read the file properties or the file content in /mantinesimple and in /mantinehandler routes.
 
 # Welcome to Remix + Vite!
 
