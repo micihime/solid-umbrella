@@ -13,7 +13,9 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <div>
-      <h1>STEPS HOW TO REPRODUCE:</h1>
+      <h2>ISSUE:</h2>
+      <p>I am using Remix with Mantine. I want to have a form where I upload some data and a file. However, I am not able to read the file properties or the file content when using Mantine components in a form.</p>
+      <h2>STEPS HOW TO REPRODUCE:</h2>
       <ol>
         <li>insert some text into the input, select some file to upload and submit</li>
         <li>check the console log in terminal</li>
