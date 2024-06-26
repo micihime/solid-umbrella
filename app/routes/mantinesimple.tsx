@@ -6,11 +6,11 @@ import { Form, useSubmit, redirect } from "@remix-run/react";
 export const action = async ({ request }: ActionFunctionArgs) => {
   const formData = await request.formData();
   const name = formData.get("name");
-  console.log(name);
+  console.log("Input name: " + name);
 
-  const file = formData.get("file")  as File;
+  const file = formData.get("file") as File;
   console.log(file);
-  
+
   console.log(file.name);
   console.log(file.type);
   console.log(file.size);
